@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>New Question</title>
     <style>/*!
  * Bootswatch v4.4.1
  * Homepage: https://bootswatch.com
@@ -18,6 +18,54 @@
 </style>
 </head>
 <body>
-sample text
-</body>
+<div class="jumbotron">
+    <form>
+  <fieldset>
+    <legend>New Question</legend>
+
+    <div class="form-group">
+      <label for="timer">Question Time Limit:</label>
+      <input type="number" class="form-control" id="timer" aria-describedby="timer" placeholder="(Seconds)">
+    </div>
+
+    <div class="form-group">
+      <label for="question_text">Question Text:</label>
+      <textarea class="form-control" id="question_text" rows="2"></textarea>
+    </div>
+
+  <div class="form-group">
+      <label for="answer_text">Answers Must Contain:</label>
+      <textarea class="form-control" id="answer_text" rows="1"></textarea>
+    </div>
+
+  <div class="form-group">
+      <label for="points">Point Value:</label>
+      <input type="number" class="form-control" id="points" aria-describedby="points" placeholder="Enter Question Point Value">
+    </div>
+
+<div class="row">
+    <div class="form-group col-md-6">
+      <label for="Multiplier">Multiplier for First Answers</label>
+      <select class="form-control" id="exampleSelect1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+
+
+    <div class="form-group col-md-6">
+      <label for="numbstudents">How Many Should Receive This Multiplier?</label>
+      <input type="number" class="form-control" id="numbstudents" aria-describedby="numbstudents" placeholder=""></div>
+
+        <div class="row form-group">
+    <div class="col-sm-12">
+        <button type="submit" class="btn btn-primary ">Add to Queue</button></div>
+
+</div>
+
+
+</div></body>
 </html>
