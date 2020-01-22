@@ -2,7 +2,7 @@
 ###Features:
 * Create questions with time limits in youtube live chats and give points to correct answers.
 
-* Track both user class and individual user performance over time.
+* Track both class and individual user engagement over time.
 
 * Generate questions ahead of time for seamless deployment, repeat previously used questions in future lectures.
 
