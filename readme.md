@@ -10,4 +10,7 @@
 
 * Allow users to remotely view their scores and class rank (coming soon)
 
+* Universal api (coming soon)
+
+* R wrapper (coming soon)
 ###Usage:
