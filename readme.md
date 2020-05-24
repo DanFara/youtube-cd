@@ -1,5 +1,5 @@
-##Youtube-CD: A Toolkit for Live Stream Chats
-###Features:
+## Youtube-CD: A Toolkit for Live Stream Chats
+### Features:
 * Create questions with time limits in youtube live chats and give points to correct answers.
 
 * Track both class and individual user engagement over time.
